@@ -65,3 +65,12 @@ sup {
     position: absolute;
     margin-left: 20px;
 }
+
+@media (max-width: 600px) {
+    #day, #meridiano {
+        font-size: 0.8em;
+    }
+    #clock{
+        font-size: 2em;
+    }
+}
