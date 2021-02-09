@@ -25,6 +25,8 @@ function addZero(num){
 function convertHour(hour){
     if(hour > 12){
         return hour%=12;
+    }else if(hour == 0){
+        return 12;
     }else{
         return hour;
     }
